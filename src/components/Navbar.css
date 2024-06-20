@@ -13,3 +13,7 @@ ul{
     font-size: large;
     list-style: none;
 }
+
+.navbar img {
+    height: 50px;
+}
