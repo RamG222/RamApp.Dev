@@ -1,0 +1,39 @@
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left{
+    width: 300px;
+}
+
+.socials{
+    display: flex;
+}
+.socials img{
+    width: 40px;
+    height: 25px;
+}
+
+.right form{
+    display: block;
+}
+
+form input, textarea{
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    background: #c0c0c083;
+    color: #000;
+    border-color: #c0c0c07c;    
+}
+button{
+    margin: 10px;
+    padding: 5px 20px 5px 20px;
+    background: #000;
+    color: #fff;
+}
+::placeholder {
+    color: rgb(0, 0, 0);
+    opacity: 1; /* Firefox */
+  }

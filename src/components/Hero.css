@@ -1,0 +1,31 @@
+.hero{
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.right img{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.left .first{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.left h2{
+    font-size: 50px;
+}
+
+.left .second{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .hero {
+      display: block;
+      justify-content: center;
+    }
+  }

@@ -1,0 +1,21 @@
+.featured{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 150px;
+}
+
+.featured img{
+    height: 100px
+}
+
+.first, .second, .third{
+    width: 280px;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    .featured {
+      display: block;
+      justify-content: center;
+    }
+  }

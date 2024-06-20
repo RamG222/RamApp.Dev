@@ -1,0 +1,15 @@
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    background: #fff3f0;
+}
+
+
+
+ul{
+    display: flex;
+    gap: 20px;
+    font-size: large;
+    list-style: none;
+}
