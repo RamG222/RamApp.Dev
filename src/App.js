@@ -11,7 +11,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <Featured/>
-      <MyWork/>
+      {/* <MyWork/> */}
       <Contact/>
     </div>
   );

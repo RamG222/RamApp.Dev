@@ -7,11 +7,11 @@ const Contact = () => {
     <>
     <div className='contact'>
       <div className="left">
-        <h3>Let's work together</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio voluptatem commodi numquam atque architecto id ipsam incidunt enim eos ea repudiandae sunt vero eligendi placeat velit nobis laborum, qui assumenda.</p>
+        <h3>Let's work together | Contact</h3>
+        <p>Fill form to contact me. <br></br>Email: ram@ramapp.dev </p>
         <div className='socials'>
-            <img src={fb} alt="" />
-            <img src={fb} alt="" />
+            {/* <img src={fb} alt="" />
+            <img src={fb} alt="" /> */}
         </div>
       </div>
       <div className="right">
